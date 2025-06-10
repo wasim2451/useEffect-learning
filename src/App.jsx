@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
 import './App.css';
+//This is how the useEffect hook runs on mounting and unmounting and also during the updation .
 function App() {
   const [timer, setTimer] = useState(0);
   useEffect(() => {
